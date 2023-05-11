@@ -1,0 +1,795 @@
+a{
+    text-decoration: none;
+    color: red;
+}
+b{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    width:100vw;
+    height:10vh;
+    align-items: center;
+    padding:0px;
+    margin:0px;
+
+}
+img{
+    position:relative;
+    bottom:20px;
+
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+
+}
+
+
+.overview{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:20vh;
+    width:100%;
+    position:relative;
+    left:20px;
+
+}
+
+#Avalabilities{
+    background-color:white;
+    height:30vh;
+    width: 20vw;
+    align-items:center;
+    justify-content:center;
+    display:none;
+    position:absolute;
+    left:1040px;
+    top:140px;
+    z-index:1;
+}
+text9{
+    color:black;
+    position:relative;
+    bottom:25px;
+}
+.dropdown4{
+
+    height:15vh;
+    width:20vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+text8{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+
+
+}
+.tophead{
+    height:10vh;
+    width:15vw;
+
+}
+#dropdown{
+    background-color:white;
+    height:50vh;
+    width:100%;
+    display:none;
+    justify-content:space-around;
+    align-items:center;
+    position:absolute;
+    z-index:1;
+}
+.Spritual{
+    height:40vh;
+    width:20vw;
+    color:white;
+    position:relative;
+    bottom:20px;
+
+
+}
+.Adventure{
+    color:white;
+    height:40vh;
+    width:20vw;
+    background-color:white;
+    position:relative;
+    bottom:20px;
+}
+.Nature{
+    color:white;
+    height:40vh;
+    width:20vw;
+    background-color:white;
+    position:relative;
+    bottom:20px;
+}
+.Heritage{
+    color:white;
+    height:40vh;
+    width:20vw;
+    background-color:white;
+    position:relative;
+    bottom:20px;
+}
+.Luxury{
+    color:white;
+    height:40vh;
+    width:20vw;
+    background-color:white;
+    position:relative;
+    bottom:20px;
+}
+h3{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    position:relative;
+    right:50px;
+}
+#dropdown1{
+    background-color:white;
+    height:25vh;
+    width:20vw;
+    display:none;
+    justify-content: center;
+    align-items:center;
+    position:absolute;
+    left:1050px;
+    z-index:1;
+}
+.details{
+    height:25vh;
+    width:20vw;
+    position:relative;
+    bottom:30px;
+}
+text7{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+
+}
+
+#dropdown2{
+    height:60vh;
+    width:100vw;
+    background-color:white;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    z-index:1;
+
+}
+.Aboutindia{
+    height:40vh;
+    width:90vw;
+    background-color:white;
+
+}
+.states1{
+    background-color:black;
+    height:70vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+#Uttarkhand{              /*Here we have used javascript Mouseover Event*/
+   background-color:black;
+   height:60vh;
+   width:20vw;
+}
+button{
+    width:10vw;
+    height:5vh;
+    position:relative;
+    left:70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    border-radius:10px;
+}
+.Hyderabad:hover{     /*it is css mousehover Event*/
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+}
+.Hyderabad{
+    background-color:black;
+   height:60vh;
+   width:20vw;
+ }
+ #Andhrapradesh{     /*Here we have used javascript Mouseover Event*/
+    background-color:black;
+    height:60vh;
+    width:20vw;
+ }
+ .Maharhastra:hover{    /*it is css mousehover Event*/
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+ }
+ .Maharhastra{
+   background-color:black;
+   height:60vh;
+   width:20vw;
+ }
+ .states2{
+    background-color:black;
+    height:70vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+#Tamilnadu{            /*Here we have used javascript Mouseover Event*/
+    background-color:black;
+    height:60vh;
+    width:20vw;
+}
+.Madhyapradesh:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+}
+.Madhyapradesh{
+    background-color:black;
+   height:60vh;
+   width:20vw;
+ }
+ .Benguluru:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+ }
+ .Benguluru{
+    background-color:black;
+   height:60vh;
+   width:20vw;
+ }
+ .Gujarath:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+ }
+ .Gujarath{
+    background-color:black;
+    height:60vh;
+    width:20vw;
+ }
+ .states3{
+    background-color:black;
+    height:70vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.Oddisha:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+}
+.Oddisha{
+    background-color:black;
+    height:60vh;
+    width:20vw;
+}
+.Kerala:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+}
+.Kerala{
+    background-color:black;
+    height:60vh;
+    width:20vw;
+ }
+ .Jammu-kashmir:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+ }
+ .Jammu-kashmir{
+    background-color:black;
+   height:60vh;
+   width:20vw;
+ }
+ .Shimla:hover{
+    background-color:brown;
+    height:65vh;
+   width:20vw;
+
+ }
+ .Shimla{
+    background-color:black;
+    height:60vh;
+    width:20vw;
+ }
+.wheather{
+    background-color:black;
+    height:60vh;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.pic2{
+    background-color:black;
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+}
+.forecast{
+    height:50vh;
+    width:45vw;
+    position:relative;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+    position:relative;
+    background-color: black;
+
+}
+.pic3{
+    background-color:black;
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+}
+.forecast1{
+    background-color:black;
+    height:120vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.guidepoints{
+    background-color:black;
+    height:90vh;
+    width:80vw;
+    position:relative;
+    bottom:50px;
+
+
+}
+h2{
+    color:brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.poojas{
+    background-color:black;
+    height:140vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.pooja1{
+    background-color:black;
+    height:120vh;
+    width:80vw;
+    position:relative;
+    top:10px;
+
+}
+th{
+    color:white;
+}
+td{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:white;
+}
+.container1{
+    display:flex;
+    height:120vh;
+    width:100vw;
+    justify-content: space-around;
+    background-color: black;
+    align-items:center;
+    position:relative;
+    top:10px;
+
+
+}
+.box1{
+    height:80vh;
+    width:20vw;
+    position:relative;
+    bottom:170px;
+}
+.box2{
+    height:80vh;
+    width:20vw;
+    position:relative;
+    bottom:40px;
+
+}
+.box3{
+    height:80vh;
+    width:20vw;
+    position:relative;
+
+    bottom:170px;
+
+}
+.box4{
+    height:80vh;
+    width:20vw;
+
+    position:relative;
+    position:relative;
+    bottom:50px;
+    right:10px;
+
+
+}
+.heading{
+    display:flex;
+    position:relative;
+    top:10px;
+    height:15vh;
+    width:100vw;
+    background-color:white;
+    align-items:center;
+    justify-content: center;;
+
+}
+.top4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+
+}
+text1{
+    color:white;
+    position:relative;
+    top:650px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+text2{
+    position:relative;
+    color:white;
+    bottom:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: black;
+    height:90vh;
+    width:100%;
+}
+.kedarnath{
+    height:80vh;
+    width:30vw;
+    position:relative;
+    top:30px;
+
+}
+.matter{
+    height:70vh;
+    width:50vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    line-height: 30px;
+}
+text3{
+    color:brown;
+    font-size:30px;
+    position:relative;
+
+}
+.Nearbyvisits{
+    background-color: black;
+    height:120vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+.Gaurikund{
+    height:110vh;
+    width:20vw;
+    position:relative;
+    top:30px;
+    background-color:black;
+}
+.VasukiTal{
+    background-color:black;
+    height:90vh;
+    width:20vw;
+    position:relative;
+
+}
+.Sonaprayag{
+    background-color:black;
+    height:110vh;
+    width:20vw;
+    position:relative;
+    top:30px;
+}
+.Chopta{
+    background-color:black;
+    height:90vh;
+    width:20vw;
+    position:relative;
+
+}
+text4{
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    color:white;
+}
+h4{
+    color:white;
+    position:relative;
+}
+.Accomdations{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:60vh;
+    width:100%;
+    background-color:black;
+
+}
+.hotel0_1{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+
+
+
+}
+.hotel0_2{
+    height:50vh;
+    width:45vw;
+    position:relative;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+    position:relative;
+
+
+
+
+}
+.hotel0_3{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+
+}
+li{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+}
+.Accomdations1{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:60vh;
+    width:100%;
+    background-color:black;
+
+
+}
+.hotel1_1{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+
+
+
+}
+.hotel1_2{
+
+    height:50vh;
+    width:45vw;
+    position:relative;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+    position:relative;
+
+}
+.hotel1_3{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+}
+.Accomdations2{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:60vh;
+    width:100%;
+    background-color:black;
+
+
+
+}
+.hotel2_1{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+
+
+
+}
+.hotel2_2{
+    height:50vh;
+    width:45vw;
+    position:relative;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+    position:relative;
+
+
+
+}
+.hotel2_3{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+
+}
+.Accomdations3{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:60vh;
+    width:100%;
+    background-color:black;
+
+
+}
+.hotel3_1{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+
+
+
+}
+.hotel3_2{
+
+    height:50vh;
+    width:45vw;
+    position:relative;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30px;
+    position:relative;
+}
+.hotel3_3{
+
+    height:40vh;
+    width:20vw;
+    position:relative;
+}
+.transport{
+    background-color:black;
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.BUS{
+    background-color:black;
+    height:65vh;
+    width:20vw;
+
+}
+.TRAIN{
+    background-color:black;
+    height:65vh;
+    width:20vw;
+
+}
+.AIR{
+    background-color:black;
+    height:65vh;
+    width:20vw;
+
+}
+.visitladhak{
+    display:flex;
+    height:70vh;
+    width:100vw;
+    background-color: black;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.forecasttable{
+    background-color: black;
+    height:50vh;
+    width:40vw;
+    align-content:center;
+}
+.seasons{
+    background-color:black;
+    height:50vh;
+    width:60vw;
+}
+strong{
+    color:black;
+    font-family:cursive;
+    font-size:30px;
+    position:relative;
+    top:35px;
+    left:25px;
+
+}
+.follow{
+    height:30vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.follow1{
+    height:20vh;
+    width:20vw;
+    background-color:white;
+}
+.follow2{
+    height:20vh;
+    width:40vw;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.app1{
+    margin:40px;
+
+
+}
